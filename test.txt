@@ -1,0 +1,16 @@
+E
+======================================================================
+ERROR: test_list_int (__main__.Test01_EMPTY_ITEM)
+*** Test01 *** FUNCTION CALL:  *** EXPECT: cart = [] ***
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/huakengxie/Desktop/CS233P/lab10-philipxz/test1.py", line 14, in test_list_int
+    cart = bot_clerk([])
+  File "/Users/huakengxie/Desktop/CS233P/lab10-philipxz/bots.py", line 8, in bot_clerk
+    for i, item in enumerate(items, start=1):
+NameError: name 'items' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
